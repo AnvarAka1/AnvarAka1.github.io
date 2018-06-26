@@ -1,21 +1,431 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Abdulsatarov Anvar</title>
-<link href = "style.css" type="text/css" rel="stylesheet">
-</head>
-<body>
-<h1> Abdulsatarov Anvar </h1>
-<p>
-Student ID: U1610025 <br>
-Group: 1-1-1(001)<br>
-E-mail: a.abdulsatarov@student.inha.uz<br>
-</p>
-<center><img src="image.jpg"></center> <br>
-<ul id="hobby"> <h2>Hobbies</h2>
-<li>drawing</li>
-<li>playing games</li>
-</ul>
-<a href ="movies.html"><p>Movies</p></a>
-</body>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Fox Art Studio</title>
+        <meta name="description" content="">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta property="og:image" content="path/to/image.jpg">
+        <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+        <!-- Chrome, Firefox OS and Opera -->
+        <meta name="theme-color" content="#000">
+        <!-- Windows Phone -->
+        <meta name="msapplication-navbutton-color" content="#000">
+        <!-- iOS Safari -->
+        <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+        <style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+    </head>
+    <body class="ishome">
+        <div class="main-page">
+            <div id="my-page">
+      
+      
+     
+ 
+<!-- ++++++++++++++++++++++++++++++++++++ POPUP MENU +++++++++++++++++++++++++++++++ -->
+<div id="back-black" class="back-black"></div>
+<div class="popup-order">
+    <div id="popup-order" class="wide-popup">
+        <div class="popup-top">
+            <h2>Order</h2>
+            <span id="times"><i class="fa fa-times"></i></span>
+        </div>
+        <div class="p-form">
+            <form action="" method="POST">
+                <input type="text" name="o-name" placeholder="Name" required>
+                <input type="email" name="o-email" placeholder="email" required>
+                <div class="p-line">
+                    <div class="inp-l">
+                        <input type="text" class="f-number" name="f-number" placeholder="998" required>
+                        <input type="text" class="s-number" name="s-number" placeholder="93 593 99 98" required>
+                    </div>
+                    <div class="inp-r">
+                        <select name="deadline" id="deadline">
+                            <option value="d1">Less than a week</option>
+                        </select>
+                        <select name="price" id="price">
+                            <option value="p1">$100-$200</option>
+                        </select>
+                    </div>
+                </div>
+                <textarea name="o-feedback" id="feedback" rows="5" placeholder="Feedback"></textarea>
+                    <div class="file">
+                        <div class="file-upload">
+                            <label>
+                                 <input type="file" name="file">
+                                 <p>Attach file</p>
+                            </label>
+                        </div>
+                    <p class="p-file">No file</p>
+
+                    </div>
+                <div class="p-button"><button class="button">Send</button></div>
+            </form>
+        </div>
+
+    </div>    
+</div>
+
+
+<!-- ++++++++++++++++++++++++++++++++++ TOP NAVIGATION ++++++++++++++++++++++++++++ -->
+        <div id="my-header">
+            <nav>
+                <div class="n-nav">
+                    <button id="my-icon" class="hamburger hamburger--slider" type="button">
+                       <span class="hamburger-box">
+                          <span class="hamburger-inner"></span>
+                       </span>
+                    </button>
+
+                  <!-- +++++++++++ NAVIGATION FOR DESKTOPS ++++++++++++++++ -->
+                    <div class="wide-nav">
+                        <div class="container">
+                            <div class="row">
+                                <div class="offset-md-2 col-md-10 offset-lg-4 col-lg-8 offset-xl-6 col-xl-6">
+                                    <ul>
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Offers</a></li>
+                                        <li><a href="#">Pricing</a></li>
+                                        <li><a href="#">Portfolio</a></li>
+                                        <li><a href="#">Get in touch</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>        
+                </div>
+                <!-- ++++++++++++++++++++++++ NAVIGATION FOR MOBILE ++++++++++++++++++ -->
+                <div class="mobile-nav" id="my-menu">
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Offers</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Get in touch</a></li>
+                        </ul>
+                    </div>    
+            </nav>
+<!-- ++++++++++++++++++++++++++ HEADER UNDER THE NAVIGATION +++++++++++++++++++ -->
+<div class="degree-wrapper">
+    <div class="degree">
+    </div>
+</div>
+<!-- <div class="degree degree-sec">
+</div> -->
+            <header>
+                <div class="h-header">
+                    <div class="wide-header">
+                       <div class="container">
+                           <div class="row">
+                               <div class="offset-1 col-10 offset-md-1 col-md-6 offset-sm-1 col-sm-10">
+                                   <!-- left part -->
+                                   <div class="left-part">
+                                        <div class="wide-left-part">
+                                           <img src="img/logo/logo_m.png" alt="">
+                                          
+                                                <h2 class="inline">studio</h2>
+                                           
+                                           <p>make the world<br>colored</p>
+                                           <p><button id="main-button" class="button">order a project</button></p>
+                                       </div>
+                                   </div>
+                               </div>
+
+                               <div class="col-sm-1 col-md-5">
+                                <div class="icons-carousel-wrap">
+                                        <div class="icons-carousel">
+                                           <a href="#"><img src="img/icons/data.svg" alt="data" class="svg"></a>
+                                           <a href="#"><img src="img/icons/globe.svg" alt="data" class="svg"></a>
+                                           <a href="#"><img src="img/icons/laptop.svg" alt="data" class="svg"></a>
+                                           <a href="#"><img src="img/icons/mobile.svg" alt="data" class="svg"></a>
+                                           <a href="#"><img src="img/icons/pencil.svg" alt="data" class="svg"></a>
+                                           <a href="#"><img src="img/icons/secure.svg" alt="data" class="svg"></a>
+                                           <a href="#"><img src="img/icons/setting.svg" alt="data" class="svg"></a>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+
+                        <div class="center scroll">
+                            <p id="down"><i class="fa fa-arrow-circle-down"></i>
+                            Scroll Down</p>
+                        </div>
+                   </div>
+                </div>
+            </header>
+</div>
+
+<!-- ++++++++++++++++++++++++++++++++++ OFFER SECTION ++++++++++++++++++++++++++ -->
+<div id="my-content">
+        <section>
+            <div class="s-offer">
+                <div class="wide-offer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h1 class="h1">What we<br><span>Offer</span></h1>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="container">
+                       <div class="row">
+                           <div class="col-sm-12">
+                                <div class="offers">
+                                    <div class="offer-line owl-carousel">
+                                        <div class="offer-block">
+                                            <a href="#">
+                                                <img src="img/icons/lapmob.svg" alt="lapmob" class="svg">
+                                                <h2>Responsive<br>Web-sites</h2>
+                                            </a>
+                                        </div>
+                                        <div class="offer-block">
+                                            <a href="#">
+                                                <img src="img/icons/pencil.svg" alt="pencil" class="svg">
+                                                <h2>Unique Web<br>Design</h2>
+                                            </a>
+                                        </div>
+                                        <div class="offer-block">
+                                            <a href="#">
+                                                <img src="img/icons/secure.svg" alt="secure" class="svg">
+                                                <h2>Secure & Stable<br>Web-sites</h2>
+                                            </a>
+                                        </div>
+                                        <div class="offer-block">
+                                            <a href="#">
+                                                <img src="img/icons/setting.svg" alt="settings" class="svg">
+                                                <h2>Setting Up<br>all components</h2>
+                                            </a>
+                                        </div>
+                                        <div class="offer-block">
+                                            <a href="#">
+                                                <img src="img/icons/globe.svg" alt="globe" class="svg">
+                                                <h2>Launch it!</h2>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- +++++++++++++++++++++++++++++++++++++++ SEPARATOR ++++++++++++++++++++++ -->
+        <div class="separator">
+            <hr>
+            <p>•</p>
+            <hr>
+        </div>
+
+
+
+
+<!-- +++++++++++++++++++++++++++++++++ PRICING SECTION +++++++++++++++++++++++++ -->
+
+        <section>
+            <div class="s-pricing">
+                <div class="wide-pricing">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h1 class="h1">Pricing</h1>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="pricings">
+                            <div class="pricing-line">
+                                <div class="pricing-block">
+                                    <h2>Landing<br>Pages</h2>
+                                    <ul>
+                                        <li>Design</li>
+                                        <li>First content</li>
+                                        <li>Optimization</li>
+                                    </ul>
+                                    
+                                    <div class="pricing-bottom">
+                                        <div class="price">
+                                            <p>Starts from</p>
+                                            <h3>99<span>$</span></h3>
+                                        </div>
+                                        <div class="button-bottom">
+                                            <button>
+                                                Order
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="pricing-block center-block back-red">
+                                    <h2>e-Commerce<br>Web-sites</h2>
+                                    <ul>
+                                        <li>Design</li>
+                                        <li>First content</li>
+                                        <li>Optimization</li>
+                                        <li>Dashboard</li>
+                                        <li>Security</li>
+                                    </ul>
+                                    
+                                    <div class="pricing-bottom">
+                                        <div class="price">
+                                            <p>Starts from</p>
+                                            <h3>749<span>$</span></h3>
+                                        </div>
+                                        <div class="button-bottom">
+                                            <button>
+                                                Order
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="pricing-block pricing-block-app">
+                                    <h2>Web<br>Applications</h2>
+                                    <ul>
+                                        <li>Design</li>
+                                        <li>First content</li>
+                                        <li>Logic</li>
+                                        <li>Dashboard</li>
+                                        <li>Security</li>
+                                        <li>Telegram Bot</li>
+                                        <li>More</li>
+                                    </ul>
+                                    
+                                    <div class="pricing-bottom">
+                                        <div class="price">
+                                            <p>Starts from</p>
+                                            <h3>149<span>$</span></h3>
+                                        </div>
+                                        <div class="button-bottom">
+                                            <button>
+                                                Order
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>
+
+                    
+                </div>
+            </div>
+        </section>
+
+ <!-- +++++++++++++++++++++++++++++++++++++++ SEPARATOR ++++++++++++++++++++++ -->
+        <div class="separator">
+            <hr>
+            <p>•</p>
+            <hr>
+        </div>
+
+<!-- ++++++++++++++++++++++++++++++ PORTFOLIO SECTION ++++++++++++++++++ -->
+        <section>
+            <div class="s-portfolio">
+                <div class="wide-portfolio">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h1 class="h1">Portfolio</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio">
+                        <div class="portfolio-line">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-2 col-3">
+                                        <div class="portfolio-block">
+                                            <a href="#"><img src="img/portfolio/yellow.png" alt=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 col-3">
+                                        <div class="portfolio-block">
+                                            <a href="#"><img src="img/portfolio/orange.png" alt=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 col-3">
+                                        <div class="portfolio-block">
+                                            <a href="#"><img src="img/portfolio/blue.png" alt=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 col-3">
+                                        <div class="portfolio-block">
+                                            <a href="#"><img src="img/portfolio/green.png" alt=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 col-3">
+                                        <div class="portfolio-block">
+                                            <a href="#"><img src="img/portfolio/red.png" alt=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 col-3">
+                                        <div class="portfolio-block">
+                                           <a href="#"><img src="img/portfolio/brown.png" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+        </div>
+<!--+++++++++++++++++++++++++++++++++++++++++ FOOTER ++++++++++++++++++++++++++++  -->
+     <div id="my-footer">
+        <footer>
+            <div class="f-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="offset-1 col-10 offset-sm-2 col-sm-8 offset-md-0 col-md-4">
+                            <div class="f-left">
+                                <h1>Get in Touch</h1>
+                                <div class="f-form">
+                                    <form action="" method="POST">
+                                        <input type="text" name="name" placeholder="Name" required>
+                                        <input type="email" name="email" placeholder="email" required>
+                                        <textarea name="feedback" id="feedback" rows="5" placeholder="Feedback"></textarea>
+                                        <label><input type="checkbox" name="call" value="call" checked>Call me</label>
+                                        <button class="button">Send</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offset-1 col-10 offset-sm-2 col-sm-8 offset-md-0 offset-lg-1 col-lg-3 col-md-4">
+                            <div class="f-center">
+                                <h1>Follow Us</h1>
+                                <div class="social">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    </ul>
+                                </div>
+                                <a href="#"><img src="img/logo/logo_footer.png" alt="logo"></a>
+                            </div>
+                        </div>
+                        <div class="offset-1 col-10 offset-sm-2 col-sm-8 offset-md-0 col-md-4">
+                            <div class="f-right">
+                                <h1>Find Us</h1>
+                                <div class="f-map">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5991.183315763273!2d69.333672!3d41.339492!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3772abeffc72e7b8!2z0KPQvdC40LLQtdGA0YHQuNGC0LXRgiDQmNC90YXQsA!5e0!3m2!1sru!2sru!4v1529446972857" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3>“Koinot-Markazi” XK © All rights reserved</h3>
+            </div>
+              </div>
+        </footer>
+</div>
+        </div>
+        <div class="top" title="moveup"><i class="fa fa-angle-double-up"></i></div>
+        <link rel="stylesheet" href="css/main.min.css">
+        <script src="js/scripts.min.js"></script>
+    </body>
 </html>
