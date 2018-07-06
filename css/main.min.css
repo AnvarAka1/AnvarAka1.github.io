@@ -9438,13 +9438,18 @@ html.mm-wrapper_opened {
       font-weight: bold; }
   .s-offer .owl-prev, .s-offer .owl-next {
     position: absolute;
-    left: -15px;
-    top: 0; }
+    left: 5px;
+    top: 15px; }
+    .s-offer .owl-prev .fa, .s-offer .owl-next .fa {
+      font-size: 24px; }
     .s-offer .owl-prev span, .s-offer .owl-next span {
       font-size: 30px; }
   .s-offer .owl-next {
     left: auto;
-    right: -15px; }
+    right: 0px; }
+
+#svg-globe {
+  viewbox: 20 20 20 20; }
 
 .separator {
   position: relative;
@@ -9469,20 +9474,25 @@ html.mm-wrapper_opened {
 .s-pricing {
   position: relative;
   width: 100%;
-  height: 500px;
-  z-index: 3;
-  overflow: hidden; }
+  z-index: 3; }
   .s-pricing h1 {
     margin-bottom: 50px; }
   .s-pricing .pricings {
     text-align: center; }
   .s-pricing .pricing-line {
+    position: relative;
     display: inline-block;
     width: 890px;
     text-align: center; }
+  .s-pricing .owl-stage-outer {
+    height: 450px;
+    padding-top: 30px; }
   .s-pricing .pricing-block {
+    -webkit-transition: position .25s ease, margin .25s ease;
+    -o-transition: position .25s ease, margin .25s ease;
+    transition: position .25s ease, margin .25s ease;
     vertical-align: middle;
-    width: 29%;
+    width: 250px;
     text-align: center;
     position: relative;
     display: inline-block;
@@ -9496,10 +9506,6 @@ html.mm-wrapper_opened {
     -o-transition: transform .25s ease;
     transition: transform .25s ease;
     transition: transform .25s ease, -webkit-transform .25s ease; }
-    .s-pricing .pricing-block:hover {
-      -webkit-transform: scale(1.12, 1.12);
-          -ms-transform: scale(1.12, 1.12);
-              transform: scale(1.12, 1.12); }
     .s-pricing .pricing-block h2 {
       text-align: left;
       font-size: 24px;
@@ -9555,11 +9561,6 @@ html.mm-wrapper_opened {
           vertical-align: top;
           position: relative;
           top: -13px; }
-  .s-pricing .pricing-block-big {
-    width: 32.6%;
-    height: 425px; }
-  .s-pricing .center-block {
-    margin: 0 30px; }
   .s-pricing .back-red {
     background: #DE5B49; }
     .s-pricing .back-red h2 {
@@ -9722,7 +9723,7 @@ html.mm-wrapper_opened {
     .s-pricing .pricing-line {
       width: 700px; }
     .s-pricing .pricing-block {
-      width: 29%;
+      width: 200px;
       -webkit-border-radius: 30px;
               border-radius: 30px;
       padding: 0 22px;
@@ -9759,12 +9760,8 @@ html.mm-wrapper_opened {
         .s-pricing .pricing-block .pricing-bottom h3 span {
           font-size: 24px;
           top: -13px; }
-    .s-pricing .pricing-block-big {
-      margin: 0 25px;
-      width: 32.6%;
-      height: 334px; }
-      .s-pricing .pricing-block-big h2 {
-        margin-bottom: 35px; }
+    .s-pricing .pricing-block-big h2 {
+      margin-bottom: 35px; }
   .f-footer {
     margin-top: 90px;
     padding: 50px 0 10px; }
@@ -9816,7 +9813,7 @@ html.mm-wrapper_opened {
       font-size: 15px;
       font-weight: bold; }
   .s-pricing {
-    height: 390px; }
+    height: 450px; }
   .f-footer {
     margin-top: 70px;
     padding: 40px 0 10px; }
@@ -9874,19 +9871,18 @@ html.mm-wrapper_opened {
       font-size: 13px; }
   .s-pricing {
     width: 100%;
-    overflow: hidden;
     margin-bottom: 40px; }
     .s-pricing h1 {
       margin-bottom: 23px; }
     .s-pricing .pricing-line {
-      width: 700px;
+      width: 574px;
       position: relative; }
     .s-pricing .pricing-block {
-      width: 29%;
+      width: 250px;
       -webkit-border-radius: 30px;
               border-radius: 30px;
       padding: 0 22px;
-      height: 295px; }
+      height: 345px; }
       .s-pricing .pricing-block h2 {
         margin-top: 20px;
         line-height: 110%;
@@ -9919,11 +9915,9 @@ html.mm-wrapper_opened {
         .s-pricing .pricing-block .pricing-bottom h3 span {
           font-size: 24px;
           top: -13px; }
-    .s-pricing .pricing-block-big {
-      margin: 0 25px;
-      width: 32.6%;
-      height: 334px; }
-      .s-pricing .pricing-block-big h2 {
+    .s-pricing .center-block {
+      margin: 0 10px; }
+      .s-pricing .center-block h2 {
         margin-bottom: 35px; }
   .f-footer {
     margin-top: 70px;
@@ -9976,6 +9970,61 @@ html.mm-wrapper_opened {
       font-size: 12px; }
     .popup-order .wide-popup .p-line select {
       font-size: 12px; }
+  .s-pricing {
+    width: 100%;
+    margin-bottom: 40px;
+    height: 400px; }
+    .s-pricing h1 {
+      margin-bottom: 23px; }
+    .s-pricing .pricing-line {
+      width: 300px;
+      position: relative; }
+    .s-pricing .pricing-block {
+      width: 200px;
+      -webkit-border-radius: 30px;
+              border-radius: 30px;
+      padding: 0 22px;
+      height: 295px; }
+      .s-pricing .pricing-block h2 {
+        margin-top: 20px;
+        line-height: 110%;
+        margin-bottom: 10px;
+        font-size: 18px; }
+      .s-pricing .pricing-block li {
+        margin-left: 8px;
+        font-size: 15px;
+        line-height: 110%; }
+      .s-pricing .pricing-block .pricing-bottom .price {
+        bottom: -15px; }
+      .s-pricing .pricing-block .pricing-bottom .button-bottom {
+        width: 100%;
+        height: 60px;
+        -webkit-border-radius: 0 0 30px 30px;
+                border-radius: 0 0 30px 30px;
+        padding-top: 17px; }
+      .s-pricing .pricing-block .pricing-bottom button {
+        padding: 5px 60px;
+        font-size: 13px; }
+      .s-pricing .pricing-block .pricing-bottom p {
+        font-size: 13px;
+        width: 50%;
+        margin-right: -5px;
+        padding-left: 10px; }
+      .s-pricing .pricing-block .pricing-bottom h3 {
+        font-size: 50px;
+        width: 50%;
+        padding-right: 25px; }
+        .s-pricing .pricing-block .pricing-bottom h3 span {
+          font-size: 24px;
+          top: -13px; }
+    .s-pricing .pricing-block-big {
+      margin: 0 25px;
+      width: 32.6%;
+      height: 334px; }
+    .s-pricing .center-block {
+      margin: 0 10px; }
+      .s-pricing .center-block h2 {
+        margin-bottom: 35px; }
   .f-footer .f-center .social {
     margin-bottom: 17px; }
   .f-footer .f-center li {
