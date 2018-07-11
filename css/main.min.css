@@ -9926,8 +9926,9 @@ html.mm-wrapper_opened {
         top: 85px;
         width: auto; }
       .h-header .icons-carousel a#a-laptop {
-        left: -26px;
-        width: 60px; }
+        left: -26px; }
+        .h-header .icons-carousel a#a-laptop svg {
+          width: 60px; }
       .h-header .icons-carousel a#a-secure {
         text-align: right;
         right: -17px;
@@ -9941,8 +9942,9 @@ html.mm-wrapper_opened {
       .h-header .icons-carousel a#a-mobile {
         bottom: 85px;
         left: -24px;
-        text-align: left;
-        width: 35px; }
+        text-align: left; }
+        .h-header .icons-carousel a#a-mobile svg {
+          width: 35px; }
       .h-header .icons-carousel a#a-settings {
         bottom: 100px;
         text-align: right;
@@ -9950,7 +9952,7 @@ html.mm-wrapper_opened {
         left: auto; }
         .h-header .icons-carousel a#a-settings svg {
           width: 45px; }
-      .h-header .icons-carousel a#a-globe {
+      .h-header .icons-carousel a#a-globe svg {
         width: 55px; }
       .h-header .icons-carousel a#a-pencil {
         text-align: center;
