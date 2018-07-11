@@ -9392,6 +9392,11 @@ html.mm-wrapper_opened {
       position: absolute;
       text-align: center;
       width: 100%; }
+      .h-header .icons-carousel a#a-data {
+        left: 0;
+        right: 0;
+        width: 75px;
+        margin: 0 auto; }
       .h-header .icons-carousel a.a-top {
         text-align: left;
         top: 85px;
@@ -9917,21 +9922,24 @@ html.mm-wrapper_opened {
   .h-header {
     min-height: 90vh;
     padding-top: 75px; }
+    .h-header .icons-carousel-wrap {
+      height: 275px; }
     .h-header .icons-carousel {
-      height: 350px; }
+      height: 275px;
+      margin-top: -8px; }
       .h-header .icons-carousel a#a-data svg {
         width: 50px; }
       .h-header .icons-carousel a.a-top {
         text-align: left;
-        top: 85px;
+        top: 58px;
         width: auto; }
       .h-header .icons-carousel a#a-laptop {
-        left: -26px; }
+        left: 20px; }
         .h-header .icons-carousel a#a-laptop svg {
           width: 60px; }
       .h-header .icons-carousel a#a-secure {
         text-align: right;
-        right: -17px;
+        right: 27px;
         left: auto; }
         .h-header .icons-carousel a#a-secure svg {
           width: 50px; }
@@ -9940,15 +9948,15 @@ html.mm-wrapper_opened {
         width: auto;
         top: auto; }
       .h-header .icons-carousel a#a-mobile {
-        bottom: 85px;
-        left: -24px;
+        bottom: 65px;
+        left: 14px;
         text-align: left; }
         .h-header .icons-carousel a#a-mobile svg {
           width: 35px; }
       .h-header .icons-carousel a#a-settings {
-        bottom: 100px;
+        bottom: 70px;
         text-align: right;
-        right: -26px;
+        right: 10px;
         left: auto; }
         .h-header .icons-carousel a#a-settings svg {
           width: 45px; }
