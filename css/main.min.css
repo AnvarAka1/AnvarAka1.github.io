@@ -9767,6 +9767,15 @@ html.mm-wrapper_opened {
     width: 200px;
     margin-left: 20px; }
 
+.empty-header {
+  min-height: auto !important; }
+
+.empty-scroll {
+  display: none !important; }
+
+.empty-offer {
+  margin-top: 0 !important; }
+
 @media only screen and (max-width: 1367px) {
   .degree {
     left: -1030px;
@@ -9913,11 +9922,6 @@ html.mm-wrapper_opened {
     left: -1042px;
     top: -404px; } }
 
-@media only screen and (max-width: 1024px) {
-  .degree {
-    left: -888px;
-    top: -305px; } }
-
 @media only screen and (max-width: 991px) {
   .h-header {
     min-height: 90vh;
@@ -10047,6 +10051,8 @@ html.mm-wrapper_opened {
   .h-header {
     min-height: 90vh;
     padding-top: 75px; }
+    .h-header .icons-carousel-wrap {
+      display: none; }
     .h-header .icons-carousel {
       display: none; }
     .h-header .left-part img {
