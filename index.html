@@ -1,411 +1,273 @@
-<!DOCTYPE html>
-<html lang="ru">
-
+<!doctype html>
+<html lang="en">
 <head>
-
-	<meta charset="utf-8">
-
-	<title>Title</title>
-	<meta name="description" content="">
-
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<meta property="og:image" content="path/to/image.jpg">
-	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
-	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
-
-	<!-- Chrome, Firefox OS and Opera -->
-	<meta name="theme-color" content="#000">
-	<!-- Windows Phone -->
-	<meta name="msapplication-navbutton-color" content="#000">
-	<!-- iOS Safari -->
-	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
-
-	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
-
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Stihia</title>
 </head>
-
 <body>
+<div class="main-page" style="background-image: url('./src/images/background.png')">
+  <header>
+    <div class="container-md">
+      <div class="row">
+        <div class="col-12">
+          <div class="d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+              <div class="logo">
+                <img src="src/images/logo.png" alt="logo"/>
+              </div>
+              <nav class="d-none d-md-block">
+                <ul class="d-flex nav-items">
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#take-part">Take part</a></li>
+                  <li><a href="#faq">F.A.Q</a></li>
+                  <li><a href="#partners">Partners</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="dropdown">
+              Language:
+              <a href="#" class="dropdown-toggle lang-dropdown" id="dropdownMenuButton" data-bs-toggle="dropdown"
+                 aria-expanded="false">
+                <span>English</span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">English</a></li>
+                <li><a class="dropdown-item" href="#">O'zbekcha</a></li>
+                <li><a class="dropdown-item" href="#">Русский</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-	<div id="my-page" class="my-page">
+      </div>
+    </div>
+  </header>
+  <main>
+    <section id="main">
+      <div class="main">
+        <div class="container-md">
+          <div class="row align-items-lg-center flex-column-reverse flex-lg-row">
+            <div class="col-12 col-lg-6">
+              <h2 class="title">stihia art music</h2>
+              <div class="main-content">
+                <p>
+                  Stihia is electronic music, arts and science festival. It is an independent project incepted in
+                  2017 in Uzbekistan with an aim to raise awareness about the environmental catastrophe of the Aral Sea.
+                  "Stihia" means "force of nature" and it comes from greek.
+                </p>
+                <button type="button" class="btn btn-light">Participate</button>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="planet">
+                <img src="src/images/planet.png" alt="planet"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<!-- ++++++++++++++++++++++++++++++ NAVIGATION ++++++++++++++++++++++++ -->
-		
-		<div class="n-nav">
-			<nav>
-				<div class="nav-in">
-					<div class="container-fluid">
-						<div class="row">
-							<div class=" col-md-1 col-sm-12">
-								<div class="logo">
-										<a href="#"><img src="img/logo/logo.png" alt="logo"></a>
-									</div>
-							</div>
-							<div class="col-6 col-md-6 offset-sm-0 col-sm-5 offset-md-1 offset-lg-1 offset-xl-1 col-sm-6 col-xl-5">
-								<ul class="owl-carousel carousel-nav">
-									<li><a href="#">Book here</a></li>
-									<li id="rooms-scroll"><a href="#">Rooms & Rates</a></li>
-									<li id="about-scroll"><a href="#">About us</a></li>
-									<li id="footer-scroll"><a href="#">Contacts</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
+    <section id="about" class="section-mt">
+      <div class="antenna">
+        <img src="src/images/antenna.png" alt="antenna"/>
+      </div>
+      <div class="container-md">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="title">about project</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-8 col-sm-6 col-lg-4">
+            <p>
+              Stihia is electronic music, arts and science festival. It is an independent project incepted in 2017 in
+              Uzbekistan with an
+              aim to raise awareness about the environmental catastrophe of the Aral Sea. "Stihia" means "force of
+              nature" and it comes from greek.
 
-					<div class="lang">
-						<div class="lang-in">
-							<p><a href="#">Change language to <span>Русский</span></a></p>
-						</div>
-						<hr>
-					</div>
-					
-				</div>
-			</nav>
-		</div>
+              The dates of the upcoming festival are 14-15 May 2021.
 
-<!-- ++++++++++++++++++++++++++++++++ HEADER ++++++++++++++++++++++++ -->
-	<div class="h-header">
-		<header>
-			<div class="header-in">
-				
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-7 col-sm-7">
-							<div class="h-wrapper">
-								<div class="h-left">
-									<h2 class="h2 back-white">All you need is here! Wi-Fi, shared kitchen, free breakfast and more awesome stuff</h2>
-									<div class="hl-bottom">
-										
-										<div class="h-minisign">
-											<hr><h4 class="h4">We offer</h4>
-										</div>
+              The Aral Sea was once the world's fourth-largest saline lake. Over recent decades, man-made diversions
+              have caused it to shrink to a mere shadow of its former size and created the most acute environmental
+              problem in the Central Asian region.
+            </p>
+          </div>
+          <div class="col-12 col-lg-4">
+            While being primarily a music event, the project quickly grew into a solid movement and expanded its
+            boundaries
+            beyond playing techno sounds at the edge of the dead sea.
 
-										<div class="carousel-wrapper">
-											<div class="owl-carousel owl-one">
-												<div class="car-block">
-													<div class="back-image" style="background-image: url('img/carousel/min/main.jpg')"></div>
-													<p>Lorem ipsum dolor sit amet</p>
-												</div>
-												<div class="car-block">
-													<div class="back-image" style="background-image: url('img/carousel/min/1.jpg')"></div>
-													<p>Lorem ipsum dolor sit amet</p>
-												</div>
-												<div class="car-block">
-													<div class="back-image" style="background-image: url('img/carousel/min/2.jpg')"></div>
-													<p>Lorem ipsum dolor sit amet</p>
-												</div>
-												<div class="car-block">
-													<div class="back-image" style="background-image: url('img/carousel/min/3.jpg')"></div>
-													<p>Lorem ipsum dolor sit amet</p>
-												</div>
-												<div class="car-block">
-													<div class="back-image" style="background-image: url('img/carousel/min/1.jpg')"></div>
-													<p>Lorem ipsum dolor sit amet</p>
-												</div>
-											</div>
-										</div>
+            Stihia is a combination of several projects that include collaboration of musicians, artists, scientists,
+            engineers, entrepreneurs - all united to produce a spectacular blend of human interaction in one of the most
+            unique places in the world.
 
-									</div>
-								</div>
+            We believe that gravitational pull of talent and inspiration may produce some of
+            the most unexpected and breakthrough results.
 
-							</div>
-						</div>
-					</div>
-				</div>
+            That is why Stihia exists.
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="take-part" class="section-mt">
+      <div class="container-md">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="title">take a part</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <div class="card-wrapper">
+              <div class="card">
+                <div class="card-body">
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Full name *</label>
+                    <input id="name" name="name" class="form-control" placeholder="name@example.com"/>
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">E-mail *</label>
+                    <input id="email" name="email" type="email" class="form-control" placeholder="example@example.com"/>
+                  </div>
+                  <div class="mb-3">
+                    <label for="phone" class="form-label">Phone number</label>
+                    <input id="phone" type="email" class="form-control" placeholder="+9989912345678"/>
+                  </div>
+                  <div class="mb-3">
+                    <label for="file" class="form-label">Choose file</label>
+                    <input id="file" type="file" class="form-control" accept=".mp3"/>
+                  </div>
+                  <p>By joining, you agree to the <a href="#">Terms</a> and <a href="#">Privacy Policy</a></p>
+                  <div class="d-flex justify-content-end">
+                    <button type="button" class="btn btn-dark">JOIN US</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="faq" class="section-mt">
+      <div class="container-md">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="title text-center">f.a.q.</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="accordion accordion-flush" id="accordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    1. How can I participate?
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                     data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                    quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                    single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
+                    wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+                    occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of
+                    them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    2. How can I send you my composition?
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                     data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                    quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                    single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
+                    wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+                    occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of
+                    them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseThree" aria-expanded="false"
+                          aria-controls="flush-collapseThree">
+                    3. What is it?
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                     data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    The population index changes the cosmic disturbing factor. Anomalous jet activity, despite external
+                    influences, illustrates a large circle of the celestial sphere, which is quite often observed in
+                    type II supernovae. The Southern Triangle gives the annual parallax. The Julian date, by definition,
+                    is given by the Toucan. The toucan reflects a distant meteor shower. A plumb line is likely.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-				<div class="h-right">
-					<div id="main-image" class="main-image">
-						<div class="image-show" style="background-image: url('img/carousel/min/main.jpg')">
-						</div>
-						<div class="cover" id="cover"></div>
-					</div>
-				</div>
+        </div>
+      </div>
+    </section>
+    <section id="partners" class="section-mt">
+      <div class="container-md">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="title text-center">partners</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="offset-lg-1 col-lg-10 col-12">
+            <div class="partners-items d-flex justify-content-between align-content-center">
+              <div class="partners-item">
+                <img src="src/images/partners/1.png" alt="1"/>
+              </div>
+              <div class="partners-item">
+                <img src="src/images/partners/2.png" alt="2"/>
+              </div>
+              <div class="partners-item">
+                <img src="src/images/partners/3.png" alt="3"/>
+              </div>
+              <div class="partners-item">
+                <img src="src/images/partners/4.png" alt="4"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
+  <footer>
+    <div class="footer p-4">
+      <div class="footer-image" style="background-image: url('./src/images/footer.png')"></div>
+      <p class="text-center">Uzbekistan © 2020</p>
+    </div>
+  </footer>
 
-			
-				<div id="keep-scrolling" class="scrolling">
-					<p><i class="fa fa-angle-double-down"></i>Keep scrolling</p>
-				</div>
-			</div>
-		</header>
-	</div>
-
-	<div class="rooms-wrapper">
-		<section class="s-rooms" id="rooms">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-xl-6 col-lg-12">
-						<div class="l-room">
-							<div class="top-room">
-								<h2 class="h2">Room & Rates</h2>
-								<p>Greetings, traveller. So, you are planning to come to Uzbekistan and looking for a cheap accommodation? Thinking about booking a budget hostel but can't find one? Or are you already in town desperate to find a last minute couch? In any case, DON'T PANIC! You have come to the right place.</p>
-								<a href="rooms.html" class="button">See Rooms</a>
-							</div>
-
-							<div class="bottom-room">
-								<div class="room-icons">
-									<ul>
-										<li>
-											<div class="image-wrap"><img src="img/icons/dish-glasses.png" alt="Dish and Glasses"></div>
-											<p>Free breakfast</p>
-										</li>
-										<li>
-											<div class="image-wrap"><img src="img/icons/bag.png" alt="Bag"></div>
-											<p>Help with bags</p>
-										</li>
-										<li>
-											<div class="image-wrap"><img src="img/icons/bed.png" alt="Bed"></div>
-											<p>Comfortable<br>bedrooms</p>
-										</li>
-										<li class="mt">
-											<div class="image-wrap"><img src="img/icons/keys.png" alt="Keys"></div>
-											<p>Own keys</p>
-										</li>
-										<li class="mt">
-											<div class="image-wrap"><img src="img/icons/shower.png" alt="Shower"></div>
-											<p>Shower</p>
-										</li>
-										<li class="mt">
-											<div class="image-wrap"><img src="img/icons/net.png" alt="Free Internet"></div>
-											<p>Free internet</p>
-										</li>
-									</ul>
-								</div>
-
-
-								<div class="room-reservation">
-									<form action="" method="post">
-										<div class="container-fluid">
-											<div class="row">
-												<div class="col-sm-12">
-													<h3 class="h3">Quick reservation</h3>
-												</div>
-												<div class="col-sm-12">
-												<div class="grid">
-													<div class="forgrid first-grid">
-														<div class="personal">
-															<input type="text" name="fname" placeholder="Name..." required>
-															<input type="text" name="sname" placeholder="Surname..." required>
-															<div class="number">
-																<input type="text" name="cnumber" placeholder="+998" required>
-																<input type="text" name="number" placeholder="(**) *******" required>
-															</div>
-															<input type="text" name="email" placeholder="Email..." required>
-														</div>
-													</div>
-													<div class="forgrid second-grid">
-														<div class="time-usage">
-															<div class="start-end">
-																<div class="res-from">
-																	<p>Starts from</p>
-																	<div class="from-wrap">
-																		<select name="fday">
-																			<option value="v1" selected>1</option>
-																			<option value="v2">2</option>
-																		</select>
-																		<select name="fmonth">
-																			<option value="v1">August</option>
-																			<option value="v2" selected>September</option>
-																		</select>
-																		<select name="fyear">
-																			<option value="v1">2016</option>
-																			<option value="v2">2017</option>
-																			<option value="v3" selected>2018</option>
-																		</select>
-																	</div>
-																</div>
-																<div class="res-to">
-																	<p>Due to</p>
-																	<div class="to-wrap">
-																		<select name="tday">
-																			<option value="v1" selected>1</option>
-																			<option value="v2">2</option>
-																		</select>
-																		<select name="tmonth">
-																			<option value="v1">August</option>
-																			<option value="v2" selected>September</option>
-																		</select>
-																		<select name="tyear">
-																			<option value="v1">2016</option>
-																			<option value="v2">2017</option>
-																			<option value="v3" selected>2018</option>
-																		</select>
-																	</div>
-																</div>
-															</div>
-															<select class="smargin" name="room">
-																<option value="v0" selected hidden disabled>Type of room</option>
-																<option value="v1">Something</option>
-																<option value="v2">Something</option>
-																<option value="v3">Something</option>
-																<option value="v4">Something</option>
-																<option value="v5">Something</option>
-																<option value="v6">Something</option>
-																<option value="v7">Something</option>
-																<option value="v8">Something</option>
-															</select>
-														</div>
-													</div>
-													<div class="forgrid third-grid">
-														<div class="submission">
-															<img src="img/icons/juice.png" alt="Juice">
-															<button type="submit" class="button smaller">Reserve it!</button>
-														</div>
-													</div>
-												</div>
-												</div>
-											</div>
-										</div>
-									</form>
-
-								</div>
-							</div>
-
-						</div>
-					</div>
-
-					<div class="col-xl-2 col-sm-4 col-4">
-
-						<div class="image-column">
-							<div>
-								<img src="img/rooms/11.jpeg" alt="">
-							</div>
-							<div>
-								<img src="img/rooms/41.jpg" alt="">
-							</div>
-						</div>
-
-					</div>
-					<div class="col-xl-2 col-sm-4 col-4">
-
-						<div class="image-column margin">
-							<div>
-								<img src="img/rooms/21.jpg" alt="">
-							</div>
-							<div>
-								<img src="img/rooms/51.jpg" alt="">
-							</div>
-						</div>
-
-					</div>
-					<div class="col-xl-2 col-sm-4 col-4">
-
-						<div class="image-column">
-							<div>
-								<img src="img/rooms/31.jpg" alt="">
-							</div>
-							<div>
-								<img src="img/rooms/61.jpg" alt="">
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</div>
-			
-
-		</section>
-	</div>
-	
-
-		<div class="about-wrapper">
-			<section class="s-about" id="about">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-sm-12">
-							<h2 class="h2">About Us</h2>
-						</div>
-						<div class="col-sm-5">
-							<p>
-								It is the atmosphere, the spirit and our philosophy. The atmosphere is simple, super-friendly and comfortable by all means. Everybody wear sleepers, cook national meals for themselves and fellow-backpackers, play music and board games. There are quiet spots to enjoy your book and bigger common areas with more social interaction.<br><br>
-								
-								In Triple Hostel you can always feel the spirit of travelling, adventure and youth in the air. The three enthusiasts who founded this hostel in Tashkent all love travelling, backpacking, hiking, cycling and all sorts of active lifestyle. Most of our guests share the same interests.<br><br>
-
-								Our philosophy is simple. It is sharing. The staff and guests of Triple Hostel Tashkent don’t just share dorms and bathrooms. We come together and share our culture, our experience, our joy and happiness. And last but not least we are the proud members of the most hospitable people on earth, the people of Central Asia!
-							</p>
-						</div>
-						<div class="offset-sm-1 col-sm-6">
-							<h4 class="h4">MORE AWESOME THINGS ABOUT TRIPLE HOSTEL</h4>
-							<p>
-								– Registration in Tashkent is included, everything is official.<br>
-								– Need Letter Of Invitation? We can help!<br>
-								– Wi-Fi is free and in every corner of the hostel<br>
-								– Breakfast is included.<br>
-								– Check-in -out time is noon. But we are flexible.<br>
-								– Kitchen is shared, well equipped and easy to use.<br>
-								– Private lockers big enough for your backpack!<br>
-								– A Ping-Pong table and board games are available, gamblers.<br>
-								– You can actually walk to the main train station, the Airport and city center!<br>
-								– Good music but not loud and annoying.<br>
-								– You can park your bicycles inside!<br>
-								– Plus, open-minded staff and much more good stuff.<br>
-							</p>
-						</div>
-					</div>
-				</div>
-			</section>
-		</div>
-
-		<div class="footer-wrapper" id="footer">
-			<footer class="f-footer">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-sm-12">
-							<h2 class="h2">Get in Touch</h2>
-						</div>
-						<div class="col-md-6"> 
-							<div class="address">
-								<table>
-									<tr>
-										<td>Address:</td>
-										<td>01, Somewhere street, Tashkent city, Uzbekistan</td>
-									</tr>
-									<tr>
-										<td>Phone:</td>
-										<td>+99890 123 45 67<br>+99890 123 45 67</td>
-									</tr>
-									<tr>
-										<td>E-mail:</td>
-										<td>info@triple.uz</td>
-									</tr>
-								</table>
-							</div>
-							<form class="f-form" action="" method="post">
-								<input type="text" name="sub" placeholder="Subscribe" required>
-								<button class="button f-button" type="submit">Send</button>
-							</form>
-						</div>
-						<div class="col-sm-12 col-12 col-md-6">
-							<div class="map">
-								<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8351.57446191877!2d69.3330255323219!3d41.33766181960564!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3772abeffc72e7b8!2z0KPQvdC40LLQtdGA0YHQuNGC0LXRgiDQmNC90YXQsA!5e0!3m2!1sru!2sru!4v1533813540037" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-							</div>
-							<div class="social">
-								<h4 class="h4">Follow Us:</h4>
-								<ul>
-									<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-									<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-									<li><a href="#"><i class="fab fa-telegram"></i></a></li>
-									<li><a href="#"><i class="fab fa-tripadvisor"></i></a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-sm-12">
-							<div class="creators">
-								<p>Tashkent © 2018</p>
-								<p>Created by <span>FoxArt Studio</span></p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</footer>
-		</div>
-	</div>
-<div class="top" title="moveup"><i class="fa fa-angle-double-up"></i></div>
-	<link rel="stylesheet" href="css/main.min.css">
-	<script src="js/scripts.min.js"></script>
-
+</div>
+<link rel="stylesheet" href="src/css/bootstrap-grid.min.css"/>
+<link rel="stylesheet" href="src/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="src/css/accordion.css"/>
+<link rel="stylesheet" href="src/css/fonts.css"/>
+<link rel="stylesheet" href="src/css/main.css"/>
+<script src="src/js/jquery.min.js"></script>
+<script src="src/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+

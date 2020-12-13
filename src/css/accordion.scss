@@ -1,0 +1,18 @@
+.accordion-item {
+  background-color: white;
+
+  .accordion-collapse {
+    color: #000
+  }
+  .accordion-button {
+    padding: 15px 30px;
+    &:not(.collapsed) {
+      color: #000;
+      background-color: #DDD;
+    }
+    &:focus {
+      box-shadow: none;
+      border-color: rgba(0,0,0,.125)
+    }
+  }
+}
