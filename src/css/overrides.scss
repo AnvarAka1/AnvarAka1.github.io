@@ -1,0 +1,57 @@
+// --------- COMMON STYLES OVERRIDES -------
+*, ul {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  @media (max-width: 600px) {
+    font-size: 12px;
+    
+  }
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: white;
+  overflow-x: hidden;
+}
+
+section {
+  position: relative;
+  z-index: 1;
+}
+
+li {
+  list-style-type: none;
+}
+
+p {
+  font-weight: 200;
+  font-size: 1.125rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+// ------- BOOTSTRAP CLASSES OVERRIDES --------
+
+.container-fluid {
+  width: 95%;
+}
+
+.btn {
+  font-weight: bold;
+  border-radius: 0;
+
+  &-dark {
+    background: #000;
+  }
+}
+
+.card {
+  border-radius: 0;
+}

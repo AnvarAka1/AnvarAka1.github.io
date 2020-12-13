@@ -1,27 +1,12 @@
-*, ul {
-  margin: 0;
-  padding: 0;
-}
+.input {
+  border: none;
+  border-bottom: 1px solid #000;
+  width: 100%;
 
-html {
-  scroll-behavior: smooth;
+  &:active, &:focus {
+    outline: none;
+  }
 }
-
-body {
-  font-family: Roboto, sans-serif;
-  color: white;
-  overflow-x: hidden;
-}
-
-section {
-  position: relative;
-  z-index: 1;
-}
-
-li {
-  list-style-type: none;
-}
-
 
 .main-page {
   min-height: 700px;
@@ -34,7 +19,8 @@ li {
 .logo {
   padding: 5px;
   width: 200px;
-  img{
+
+  img {
     width: 100%
   }
 }
@@ -52,6 +38,7 @@ li {
 .title {
   font-family: "MajorMonoDisplay", sans-serif;
   margin-bottom: 30px;
+  font-size: 3rem
 }
 
 .nav-items {
@@ -84,7 +71,11 @@ li {
 .planet {
   text-align: right;
 
+
   img {
+    padding: 5px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #fff, inset 0 0 5px #fff;
     width: 500px;
   }
 
@@ -123,6 +114,51 @@ li {
   color: #000;
   border: 1px solid #fff;
   padding: 10px
+}
+
+.terms, .terms a {
+  color: #777;
+  font-size: 0.875rem;
+  transition: color .25s ease;
+
+  & > a:hover {
+    color: #000
+  }
+}
+
+.file {
+  color: #777;
+
+  p {
+    font-size: 8px;
+  }
+  label {
+    cursor: pointer;
+  }
+  .file-label {
+    width: 100%;
+    border-bottom: 1px solid #000;
+    display: inline-block;
+    z-index: 1;
+    background: transparent;
+  }
+
+  input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .browse {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+  }
 }
 
 // -------------- PARTNERS ---------------

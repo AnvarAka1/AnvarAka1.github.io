@@ -10,7 +10,7 @@
 <body>
 <div class="main-page" style="background-image: url('./src/images/background.png')">
   <header>
-    <div class="container-md">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-12">
           <div class="d-flex align-items-center justify-content-between">
@@ -48,17 +48,17 @@
   <main>
     <section id="main">
       <div class="main">
-        <div class="container-md">
+        <div class="container-fluid">
           <div class="row align-items-lg-center flex-column-reverse flex-lg-row">
             <div class="col-12 col-lg-6">
               <h2 class="title">stihia art music</h2>
               <div class="main-content">
-                <p>
+                <p class="w-75">
                   Stihia is electronic music, arts and science festival. It is an independent project incepted in
                   2017 in Uzbekistan with an aim to raise awareness about the environmental catastrophe of the Aral Sea.
                   "Stihia" means "force of nature" and it comes from greek.
                 </p>
-                <button type="button" class="btn btn-light">Participate</button>
+                <button type="button" class="btn btn-light button">Participate</button>
               </div>
             </div>
             <div class="col-12 col-lg-6">
@@ -75,7 +75,7 @@
       <div class="antenna">
         <img src="src/images/antenna.png" alt="antenna"/>
       </div>
-      <div class="container-md">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-12">
             <h2 class="title">about project</h2>
@@ -97,53 +97,59 @@
             </p>
           </div>
           <div class="col-12 col-lg-4">
-            While being primarily a music event, the project quickly grew into a solid movement and expanded its
-            boundaries
-            beyond playing techno sounds at the edge of the dead sea.
+            <p>
+              While being primarily a music event, the project quickly grew into a solid movement and expanded its
+              boundaries
+              beyond playing techno sounds at the edge of the dead sea.
 
-            Stihia is a combination of several projects that include collaboration of musicians, artists, scientists,
-            engineers, entrepreneurs - all united to produce a spectacular blend of human interaction in one of the most
-            unique places in the world.
+              Stihia is a combination of several projects that include collaboration of musicians, artists, scientists,
+              engineers, entrepreneurs - all united to produce a spectacular blend of human interaction in one of the
+              most
+              unique places in the world.
 
-            We believe that gravitational pull of talent and inspiration may produce some of
-            the most unexpected and breakthrough results.
+              We believe that gravitational pull of talent and inspiration may produce some of
+              the most unexpected and breakthrough results.
 
-            That is why Stihia exists.
+              That is why Stihia exists.
+            </p>
           </div>
         </div>
       </div>
     </section>
     <section id="take-part" class="section-mt">
-      <div class="container-md">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-12">
             <h2 class="title">take a part</h2>
           </div>
         </div>
         <div class="row">
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-lg-3">
             <div class="card-wrapper">
               <div class="card">
                 <div class="card-body">
-                  <div class="mb-3">
-                    <label for="name" class="form-label">Full name *</label>
-                    <input id="name" name="name" class="form-control" placeholder="name@example.com"/>
-                  </div>
-                  <div class="mb-3">
-                    <label for="email" class="form-label">E-mail *</label>
-                    <input id="email" name="email" type="email" class="form-control" placeholder="example@example.com"/>
-                  </div>
-                  <div class="mb-3">
-                    <label for="phone" class="form-label">Phone number</label>
-                    <input id="phone" type="email" class="form-control" placeholder="+9989912345678"/>
-                  </div>
-                  <div class="mb-3">
-                    <label for="file" class="form-label">Choose file</label>
-                    <input id="file" type="file" class="form-control" accept=".mp3"/>
-                  </div>
-                  <p>By joining, you agree to the <a href="#">Terms</a> and <a href="#">Privacy Policy</a></p>
-                  <div class="d-flex justify-content-end">
-                    <button type="button" class="btn btn-dark">JOIN US</button>
+                  <div class="pt-4">
+                    <div class="mb-3">
+                      <input name="name" class="input" placeholder="Full name *"/>
+                    </div>
+                    <div class="mb-3">
+                      <input name="email" type="email" class="input" placeholder="E-mail *"/>
+                    </div>
+                    <div class="mb-3">
+                      <input type="email" class="input" placeholder="Phone number (optional)"/>
+                    </div>
+                    <div class="mb-3 file">
+                      <p class="mb-0">Choose your composition</p>
+                      <div class="position-relative">
+                        <label for="file" class="file-label">Choose a file</label>
+                        <label for="file" class="browse">Browse</label>
+                      </div>
+                      <input type="file" id="file" accept=".mp3"/>
+                    </div>
+                    <p class="terms">By joining, you agree to the <a href="#">Terms</a> and <a href="#">Privacy Policy</a></p>
+                    <div class="d-flex justify-content-end">
+                      <button type="button" class="btn btn-dark button">JOIN US</button>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -153,7 +159,7 @@
       </div>
     </section>
     <section id="faq" class="section-mt">
-      <div class="container-md">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-12">
             <h2 class="title text-center">f.a.q.</h2>
@@ -161,17 +167,16 @@
         </div>
         <div class="row">
           <div class="col-12">
-            <div class="accordion accordion-flush" id="accordion">
+            <div class="accordion" id="accordion">
               <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingOne">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                     1. How can I participate?
                   </button>
                 </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-                     data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordion">
+                  <div class="accordion-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
                     richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
                     quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
                     single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
@@ -182,15 +187,14 @@
                 </div>
               </div>
               <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingTwo">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                     2. How can I send you my composition?
                   </button>
                 </h2>
-                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-                     data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion">
+                  <div class="accordion-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
                     richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
                     quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
                     single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
@@ -201,15 +205,12 @@
                 </div>
               </div>
               <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingThree">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapseThree" aria-expanded="false"
-                          aria-controls="flush-collapseThree">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                     3. What is it?
                   </button>
                 </h2>
-                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                     data-bs-parent="#accordionFlushExample">
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion">
                   <div class="accordion-body">
                     The population index changes the cosmic disturbing factor. Anomalous jet activity, despite external
                     influences, illustrates a large circle of the celestial sphere, which is quite often observed in
@@ -220,12 +221,13 @@
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>
+
+
     <section id="partners" class="section-mt">
-      <div class="container-md">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-12">
             <h2 class="title text-center">partners</h2>
@@ -264,6 +266,7 @@
 <link rel="stylesheet" href="src/css/bootstrap-grid.min.css"/>
 <link rel="stylesheet" href="src/css/bootstrap.min.css"/>
 <link rel="stylesheet" href="src/css/accordion.css"/>
+<link rel="stylesheet" href="src/css/overrides.css"/>
 <link rel="stylesheet" href="src/css/fonts.css"/>
 <link rel="stylesheet" href="src/css/main.css"/>
 <script src="src/js/jquery.min.js"></script>
