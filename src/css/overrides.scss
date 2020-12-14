@@ -15,6 +15,7 @@ html {
 
 body {
   font-family: Roboto, sans-serif;
+  font-weight: 200;
   color: white;
   overflow-x: hidden;
 }
@@ -26,13 +27,15 @@ section {
 
 li {
   list-style-type: none;
+
 }
 
 p {
-  font-weight: 200;
   font-size: 1.125rem;
 }
-
+h2 {
+  margin: 0
+}
 button {
   cursor: pointer;
 }
@@ -54,4 +57,16 @@ button {
 
 .card {
   border-radius: 0;
+}
+
+.dropdown-menu {
+  border-radius: 0;
+  & > li:active, & > li:focus {
+    border: none;
+    outline: none
+  }
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  background-color: rgba(0, 0, 0, 0.83)
 }

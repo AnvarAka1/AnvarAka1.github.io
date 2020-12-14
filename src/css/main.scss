@@ -69,17 +69,18 @@
 
 // -------------- MAIN -------------------
 .planet {
-  text-align: right;
-
-
+  text-align: center;
+  position: relative;
+  transform: translateX(-40px);
   img {
     padding: 5px;
     border-radius: 50%;
     box-shadow: 0 0 5px #fff, inset 0 0 5px #fff;
-    width: 500px;
+    width: 520px;
   }
 
   @media (max-width: 992px) {
+    text-align: right;
     transform: translateX(100px);
     img {
       width: 420px;
@@ -130,7 +131,7 @@
   color: #777;
 
   p {
-    font-size: 8px;
+    font-size: 12px;
   }
   label {
     cursor: pointer;
