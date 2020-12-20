@@ -1,11 +1,12 @@
 @font-face {
-  font-family: "MajorMonoDisplay";
-  src: url("../fonts/MajorMonoDisplay/MajorMonoDisplayRegular.ttf");
+  font-family: "Roboto";
+  font-weight: 200;
+  src: url("../fonts/Roboto/RobotoLight.ttf");
 }
 @font-face {
   font-family: "Roboto";
   font-weight: 100;
-  src: url("../fonts/Roboto/RobotoLight.ttf");
+  src: url("../fonts/Roboto/RobotoThin.ttf");
 }
 @font-face {
   font-family: "Roboto";
