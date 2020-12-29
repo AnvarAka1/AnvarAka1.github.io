@@ -11,26 +11,24 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-#preloader .progress-wrapper {
-  text-align: center;
-  width: 300px;
-}
-#preloader .preloader-image {
-  width: 100%;
-}
-#preloader .preloader-image img {
-  width: 170px;
+  .progress-wrapper {
+    text-align: center;
+    width: 300px
+  }
+  .preloader-image {
+    width: 100%;
+    img {
+      width: 170px
+    }
+  }
 }
 
 #progress-bar {
   height: 5px;
   background-color: white;
   border-radius: 5px;
+  ~ p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
 }
-#progress-bar ~ p {
-  margin-top: 10px;
-  font-size: 14px;
-}
-
-/*# sourceMappingURL=preloader.css.map */

@@ -12,7 +12,8 @@
   background-attachment: fixed;
   background-position: 0 0;
   background-repeat: repeat-y;
-  background-size: 100%;
+  background-size: cover;
+  overflow-x: hidden;
 }
 
 .logo {
@@ -38,6 +39,15 @@
   letter-spacing: 12px;
   margin-bottom: 30px;
   font-size: 3rem;
+}
+
+.two-columns {
+  column-count: 2;
+}
+@media (max-width: 900px) {
+  .two-columns {
+    column-count: 1;
+  }
 }
 
 .nav-items li {
@@ -153,6 +163,34 @@
   top: 0;
   right: 0;
   z-index: 0;
+}
+
+.slider-carousel .inner-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider-carousel .image-wrapper, .slider-carousel .text-wrapper {
+  width: 30%;
+}
+@media (max-width: 1000px) {
+  .slider-carousel .image-wrapper, .slider-carousel .text-wrapper {
+    width: 40%;
+  }
+}
+@media (max-width: 700px) {
+  .slider-carousel .image-wrapper, .slider-carousel .text-wrapper {
+    width: 45%;
+  }
+}
+.slider-carousel .image-wrapper {
+  margin-right: 5px;
+}
+.slider-carousel .image-wrapper img {
+  width: 100%;
+}
+.slider-carousel .text-wrapper p {
+  font-size: 0.75rem;
 }
 
 .video-wrapper iframe {

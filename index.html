@@ -7,8 +7,27 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Stihia</title>
   <link rel="stylesheet" href="src/css/preloader.css"/>
+  <link rel="stylesheet" href="src/css/bootstrap-grid.min.css"/>
+  <link rel="stylesheet" href="src/css/bootstrap.min.css"/>
+
+  <link rel="stylesheet" href="src/css/overrides.css"/>
+  <link rel="stylesheet" href="src/css/fonts.css"/>
+  <link rel="stylesheet" href="src/css/main.css"/>
+  <link rel="stylesheet" href="src/css/slick.css"/>
+  <link rel="stylesheet" href="src/css/slick-theme.css"/>
 </head>
 <body>
+<div id="preloader" style="background-image: url('src/images/background.png')">
+  <div class="progress-wrapper">
+    <div class="preloader-image">
+      <img src="src/images/logo.png" alt="logo"/>
+    </div>
+    <div>
+      <div id="progress-bar"></div>
+      <p style="text-align: center">0%</p>
+    </div>
+  </div>
+</div>
 <div class="main-page" style="background-image: url('./src/images/background.png')">
   <header>
     <div class="container-fluid">
@@ -83,8 +102,8 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-8 col-sm-6 col-lg-4">
-            <p>
+          <div class="col-8">
+            <p class="two-columns">
               Stihia is electronic music, arts and science festival. It is an independent project incepted in 2017 in
               Uzbekistan with an
               aim to raise awareness about the environmental catastrophe of the Aral Sea. "Stihia" means "force of
@@ -95,10 +114,6 @@
               The Aral Sea was once the world's fourth-largest saline lake. Over recent decades, man-made diversions
               have caused it to shrink to a mere shadow of its former size and created the most acute environmental
               problem in the Central Asian region.
-            </p>
-          </div>
-          <div class="col-12 col-lg-4">
-            <p>
               While being primarily a music event, the project quickly grew into a solid movement and expanded its
               boundaries
               beyond playing techno sounds at the edge of the dead sea.
@@ -130,16 +145,16 @@
               <div class="card">
                 <div class="card-body">
                   <div class="pt-4">
-                    <div class="mb-3">
+                    <div class="mb-4">
                       <input name="name" class="input" placeholder="Full name *"/>
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-4">
                       <input name="email" type="email" class="input" placeholder="E-mail *"/>
                     </div>
-                    <div class="mb-3">
-                      <input type="email" class="input" placeholder="Phone number (optional)"/>
+                    <div class="mb-4">
+                      <input id="phone" class="input" placeholder="Phone number (optional)"/>
                     </div>
-                    <div class="mb-3 file">
+                    <div class="mb-4 file">
                       <p class="mb-0">Choose your composition</p>
                       <div class="position-relative">
                         <label for="file" class="file-label">Choose a file</label>
@@ -156,6 +171,107 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="slider" class="section-mt">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="slider-carousel">
+
+              <div class="slider-item">
+                <div class="inner-wrapper">
+                  <div class="image-wrapper">
+                    <img src="src/images/earth.png" alt="earth"/>
+                  </div>
+                  <div class="text-wrapper">
+                    <h2 class="title mb-2">Earth</h2>
+                    <p>From the high latitude of Tromsø, a high-power radio transmission departs the Earth towards the
+                      sky. Our planet, the third one in the Solar System is a rocky object surrounded by a rather thick
+                      atmosphere. While there is nothing particular about its size or orbit, there is one thing that
+                      makes it unique: it is the only place in the Universe known to host life… perhaps even intelligent
+                      life… for now.</p>
+                    <div>
+                      <div>
+                        <p class="mb-0">
+                          <strong>Distance travelled:</strong>
+                        </p>
+                        <p>0 km</p>
+                      </div>
+                      <div>
+                        <p class="mb-0">
+                          <strong>Time elapsed:</strong>
+                        </p>
+                        <p>0</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="slider-item">
+                <div class="inner-wrapper">
+                  <div class="image-wrapper">
+                    <img src="src/images/earth.png" alt="earth"/>
+                  </div>
+                  <div class="text-wrapper">
+                    <h2 class="title mb-2">Earth</h2>
+                    <p>From the high latitude of Tromsø, a high-power radio transmission departs the Earth towards the
+                      sky. Our planet, the third one in the Solar System is a rocky object surrounded by a rather thick
+                      atmosphere. While there is nothing particular about its size or orbit, there is one thing that
+                      makes it unique: it is the only place in the Universe known to host life… perhaps even intelligent
+                      life… for now.</p>
+                    <div>
+                      <div>
+                        <p class="mb-0">
+                          <strong>Distance travelled:</strong>
+                        </p>
+                        <p>0 km</p>
+                      </div>
+                      <div>
+                        <p class="mb-0">
+                          <strong>Time elapsed:</strong>
+                        </p>
+                        <p>0</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="slider-item">
+                <div class="inner-wrapper">
+                  <div class="image-wrapper">
+                    <img src="src/images/earth.png" alt="earth"/>
+                  </div>
+                  <div class="text-wrapper">
+                    <h2 class="title mb-2">Earth</h2>
+                    <p>From the high latitude of Tromsø, a high-power radio transmission departs the Earth towards the
+                      sky. Our planet, the third one in the Solar System is a rocky object surrounded by a rather thick
+                      atmosphere. While there is nothing particular about its size or orbit, there is one thing that
+                      makes it unique: it is the only place in the Universe known to host life… perhaps even intelligent
+                      life… for now.</p>
+                    <div>
+                      <div>
+                        <p class="mb-0">
+                          <strong>Distance travelled:</strong>
+                        </p>
+                        <p>0 km</p>
+                      </div>
+                      <div>
+                        <p class="mb-0">
+                          <strong>Time elapsed:</strong>
+                        </p>
+                        <p>0</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
@@ -284,16 +400,14 @@
   </footer>
 
 </div>
-<link rel="stylesheet" href="src/css/bootstrap-grid.min.css"/>
-<link rel="stylesheet" href="src/css/bootstrap.min.css"/>
 
-<link rel="stylesheet" href="src/css/overrides.css"/>
-<link rel="stylesheet" href="src/css/fonts.css"/>
-<link rel="stylesheet" href="src/css/main.css"/>
 
 <script src="src/js/jquery.min.js"></script>
 <script src="src/js/bootstrap.bundle.min.js"></script>
 <script src="src/js/preloader.js"></script>
+<script src="src/js/jquery.inputmask.js"></script>
+<script src="src/js/slick.min.js"></script>
+<script src="src/js/main.js"></script>
 
 </body>
 </html>
